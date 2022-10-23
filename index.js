@@ -7,7 +7,7 @@ console.log("Hey " + userName + "!")
 console.log("How well do you know me?")
 console.log("*******************")
 console.log("INSTRUCTION")
-console.log("All answers in small letter and only in chars")
+console.log("There are 4 options each and you just have to choose the correct one")
 console.log("for every right answer you get +1 and else you get -1")
 console.log("*******************")
   
@@ -27,28 +27,28 @@ function play(question, answer,option) {
 
 var questions = [{
   question: "Where do i live?  ",
-  option:" 1.guna 2.gwalior 3.jabalpur 4.indore",
-  answer: 'guna',         
+  option:" a.guna b.gwalior c.jabalpur d.indore   ",
+  answer: 'a',         
 },
 {
-  question: "My college Name? ",
-  option:"1.pg 2.gvc 3.mits 4.hansraj   ",
-  answer: "gvc"
+  question: "My college Name?   ",
+  option:"a.pg b.gvc c.mits d.hansraj   ",
+  answer: "b"
 },
 {
-  question: "what is my age?",
-  option:"1.20 2.22 3.23 4.28   ",
-  answer: "23"
+  question: "what is my age?   ",
+  option:"a.20 b.22 c.23 d.28   ",
+  answer: "c"
 },
 {
-  question: "I am working at which company?",
-option:"1. byju's 2.asian paints 3.infosys 4.tcs   ",
-  answer: "byju's"
+  question: "I am working at which company?   ",
+option:"a. byju's b.asian paints c.infosys d.tcs   ",
+  answer: "a"
 },
 {
-  question: "From which Branch i graduated?  ",
- option:" 1. civil 2.cs 3.electrical 4.mechanical ",
-  answer: "cs"
+  question: "From which Branch i graduated?   ",
+ option:" a. civil b.cs c.electrical d.mechanical ",
+  answer: "b"
 }
 ];
 
